@@ -13,13 +13,19 @@ This code is based on the assignment **'Trigger Word Detection'** from the **Seq
 - **Data Generation**: The Faker library is used to generate synthetic date data in multiple human-readable formats. These dates are used as inputs. Examples of human-readable date formats include:
 
 November 22, 2006
+
 Tuesday, August 21, 2018
+
 Sep 28, 1974
+
 1/1/93
+
 17 8 1971
 
 These formats are then transformed into machine-readable formats such as:
+
 2008-01-23
+
 2006-10-22
 
 - **Building Vocabulary**: The project involves creating vocabularies for both the human-readable and machine-readable date formats.
