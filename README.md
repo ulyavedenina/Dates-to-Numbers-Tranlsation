@@ -2,12 +2,6 @@
 
 This project illustrates a sequence-to-sequence model with an attention mechanism to transform date formats from a human-readable into a machine-readable one. The primary goal is to train a model that can be potentally used in a machine translation task but doesn't require much computational power. The obtained model accurately converts various date formats into a standardized format, using LSTM networks and an attention mechanism to enhance performance.
 
-This code is based on the assignment **'Trigger Word Detection'** from the **Sequence Models** course, which is part of the **Deep Learning Specialization**.
-
-## Examples of the data used
-
-
-
 ## Project Components
 
 - **Data Generation**: The Faker library is used to generate synthetic date data in multiple human-readable formats. These dates are used as inputs. Examples of human-readable date formats include:
